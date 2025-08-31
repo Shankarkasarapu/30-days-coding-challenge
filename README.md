@@ -1,57 +1,111 @@
-🗓️**30-Day DSA Consistency Challenge** 💪 — Gowri Sankar Kasarapu (B.Tech, AI & ML — 2025)
+# 🚀 30 Days Coding Challenge  
 
-I’m kicking off a 30-day Data Structures & Algorithms journey to build problem-solving muscle, prepare for placements and internships, and level up my backend & ML engineering skills. I’ll solve at least one LeetCode problem a day, log my progress, and iterate on weak areas.
+Welcome to my **30 Days Coding Challenge** repository!  
+This project documents my journey of solving **3 problems daily on LeetCode** for 30 consecutive days, with a strong focus on **problem-solving, data structures, and algorithmic thinking**.  
 
+![Coding](https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif)  
 
-🎯**Goal**
+---
 
-Build daily coding consistency and improve algorithmic thinking.
+## 🎯 Goals of This Challenge  
+- ✅ Build a **habit of consistency** through daily coding practice.  
+- ✅ Sharpen **core computer science fundamentals**:  
+  - 📊 Arrays, Strings, Linked Lists, Hash Maps  
+  - 🔄 Recursion, ⚡ Dynamic Programming, and more  
+- ✅ Provide a **structured learning path** for anyone looking to improve their coding skills.  
 
-Cover core DSA topics for interviews (arrays, strings, hashing, stacks/queues, trees, graphs, DP).
+---
 
-Translate problem knowledge into better code for MERN + ML projects and interviews.
+## 👨‍💻 Who Is This For?  
+This repository is designed for:  
+- 🎓 **Students & beginners** who want a guided coding routine.  
+- 💼 **Developers preparing for coding interviews** at top tech companies.  
+- 🔥 **Anyone looking to strengthen problem-solving skills** through consistent practice.  
 
-📈**Daily Progress :**
+---
 
-🗓** Day 1 **
+## 📂 Repository Structure  
+The repository is organized **day-wise**, with each folder containing solutions for 3 problems:  
 
-  Problems solved
-  
-  Add Two Integers — LeetCode 2235
-  
-  Concatenation of Array — LeetCode 1929
-  
-  Move Zeroes — LeetCode 283
-  
-  Status: Done ✔️
+```
+📦 30-days-coding-challenge
+ ┣ 📂 Day-01
+ ┃ ┣ 📜 problem1.py
+ ┃ ┣ 📜 problem2.py
+ ┃ ┗ 📜 problem3.py
+ ┣ 📂 Day-02
+ ┃ ┣ 📜 problem1.py
+ ┃ ┣ 📜 problem2.py
+ ┃ ┗ 📜 problem3.py
+ ┗ ... up to Day-30
+```
 
+Each solution file contains:  
+- 📝 Problem statement (short description)  
+- 💡 Approach & explanation (when applicable)  
+- ⚡ Optimized solution code  
 
+---
 
+## 🛠️ Tech Stack  
+- 🐍 **Python**  
+- 🖥️ **LeetCode Platform**  
+- 🌍 **Git & GitHub for version control**  
 
-**30-Day focus roadmap**
+---
 
-  Days 1–5: Arrays & Two-pointer / Sorting basics
-  
-  Days 6–10: Strings & Hashing
-  
-  Days 11–15: Stacks, Queues, Linked Lists
-  
-  Days 16–21: Trees (BST) & Recursion
-  
-  Days 22–25: Graphs (BFS/DFS basics)
-  
-  Days 26–30: Dynamic Programming fundamentals
-  
-  Days 30+: Mixed problems + mock interview practice
+## 📌 Progress Tracker  
 
+Here’s the day-wise breakdown of problems solved:  
 
+| Day        | Problems Solved |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Day 1**  | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) <br> [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) <br> [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                           |
+| **Day 2**  | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) <br> [268. Missing Number](https://leetcode.com/problems/missing-number/) <br> [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)           |
+| **Day 3**  | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) <br> [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) <br> [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                           |
+| **Day 4**  | [136. Single Number](https://leetcode.com/problems/single-number/) <br> [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) <br> [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)                        |
+| **Day 5**  | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) <br> [202. Happy Number](https://leetcode.com/problems/happy-number/) <br> [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                              |
+| **Day 6**  | [15. 3Sum](https://leetcode.com/problems/3sum/) <br> [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) <br> [75. Sort Colors](https://leetcode.com/problems/sort-colors/)                                                           |
+| **Day 7**  | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) <br> [443. String Compression](https://leetcode.com/problems/string-compression/) <br> [179. Largest Number](https://leetcode.com/problems/largest-number/)                                               |
+| **Day 8**  | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) <br> [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) <br> [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                 |
+| **Day 9**  | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) <br> [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) <br> [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) |
+| **Day 12** | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) <br> [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) <br> [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)         |
 
-📌**Quick tips**
+✨ More days will be updated as the challenge progresses!  
 
-  ● Aim for consistency over volume: a single well-solved problem beats rushed attempts.
-  
-  ● Read others’ solutions after you solve a problem to learn alternate patterns.
-  
-  ● Write clear, commented code and practice explaining your approach out loud.
-    
-  ● Track weak topics and re-visit them after day 15.
+---
+
+## 📊 GitHub Activity & Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shankarkasarapu&show_icons=true&theme=radical" alt="GitHub Stats" width="45%" />
+  <img src="https://streak-stats.demolab.com?user=Shankarkasarapu&theme=radical&hide_border=true" alt="GitHub Streak" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Shankarkasarapu&theme=onedark&row=1&column=6" alt="Trophies" />
+</p>
+
+---
+
+## 🌟 How to Use This Repo  
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/Shankarkasarapu/30-days-coding-challenge.git
+   ```
+2. Navigate to the specific day’s folder.  
+3. Review the problem, approach, and solution.  
+4. Try solving on your own before checking the solution! 💡  
+
+---
+
+## 🔗 Connect with Me  
+👤 **Gowri Sankar Kasarapu**  
+- 🌐 [Portfolio](https://shankarkasarapu.github.io)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/shankarkasarapu)  
+- 🐙 [GitHub](https://github.com/Shankarkasarapu)  
+
+---
+
+### ⭐ If you find this repository helpful, don’t forget to **star** it!  
+Let’s keep growing with consistency & code 🚀  
