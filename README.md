@@ -73,20 +73,7 @@ Here’s the day-wise breakdown of problems solved:
 
 ✨ More days will be updated as the challenge progresses!  
 
----
 
-## 📊 GitHub Activity & Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shankarkasarapu&show_icons=true&theme=radical" alt="GitHub Stats" width="45%" />
-  <img src="https://streak-stats.demolab.com?user=Shankarkasarapu&theme=radical&hide_border=true" alt="GitHub Streak" width="45%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shankarkasarapu&theme=onedark&row=1&column=6" alt="Trophies" />
-</p>
-
----
 
 ## 🌟 How to Use This Repo  
 1. Clone this repo:  
@@ -101,10 +88,11 @@ Here’s the day-wise breakdown of problems solved:
 
 ## 🔗 Connect with Me  
 👤 **Gowri Sankar Kasarapu**  
-- 🌐 [Portfolio](https://shankarkasarapu.github.io)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/shankarkasarapu)  
-- 🐙 [GitHub](https://github.com/Shankarkasarapu)  
-
+- 🌐 [Portfolio](https://portfolio-1-wukh.onrender.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/gowri-shankar-kasarapu-75112623a)  
+- 🐙 [GitHub](https://github.com/Shankarkasarapu)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="22" height="26" /> [LeetCode](https://leetcode.com/Shankarkasarapu)
+  
 ---
 
 ### ⭐ If you find this repository helpful, don’t forget to **star** it!  
