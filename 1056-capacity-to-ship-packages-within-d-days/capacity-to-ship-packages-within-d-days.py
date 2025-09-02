@@ -2,7 +2,6 @@ class Solution(object):
     def shipWithinDays(self, weights, days):
         mincap = max(weights)
         maxcap = sum(weights)
-
         while mincap<maxcap :
             mid=(mincap+maxcap)/2
             D,curr_sum=1,0
