@@ -91,7 +91,7 @@ Here’s the day-wise breakdown of problems solved:
 - 🌐 [Portfolio](https://portfolio-1-wukh.onrender.com)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/gowri-shankar-kasarapu-75112623a)  
 - 🐙 [GitHub](https://github.com/Shankarkasarapu)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="22" height="26" /> [LeetCode](https://leetcode.com/Shankarkasarapu)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="22" height="22" align="absmiddle" /> [LeetCode](https://leetcode.com/Shankarkasarapu)
   
 ---
 
