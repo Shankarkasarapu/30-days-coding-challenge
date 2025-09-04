@@ -1,8 +1,6 @@
 class Solution(object):
-    def canCompleteCircuit(self, gas, cost):
-        total_gas=sum(gas)
-        total_cost= sum(cost)
-        if total_gas < total_cost:
+    def canCompleteCircuit(self, gas, cost): 
+        if sum(gas) < sum(cost):
             return -1
         else:
             car_fuel,index=0,0
