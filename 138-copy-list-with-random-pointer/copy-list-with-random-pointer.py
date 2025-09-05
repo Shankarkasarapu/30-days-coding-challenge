@@ -13,18 +13,29 @@ class Solution(object):
         :type head: Node
         :rtype: Node
         """
-        if head is None: return None
-        mapping = {}
-        cur = head
-        while cur:
-            mapping[cur] = Node(cur.val,None,None)
-            cur = cur.next
-        cur = head
-        while cur:
-            if cur.next:
-                mapping[cur].next = mapping[cur.next]
-            if cur.random:
-                mapping[cur].random = mapping[cur.random]
-            cur = cur.next
-        return mapping[head]
+        if not head: return head
+        tail= head 
+        while tail is not None:
+            newnode = Node(tail.val)
+            newnode.next=tail.next
+            tail.next=newnode
+            tail=tail.next.next
+
+        tail= head 
+        while tail:
+            if tail.random:
+                tail.next.random =tail.random.next
+            tail=tail.next.next
         
+        curr=head 
+        newhead = head.next 
+        newcurr = newhead
+        while curr and newcurr:
+            curr.next=newcurr.next
+            curr=curr.next
+            if curr:
+                newcurr.next=curr.next
+                newcurr=newcurr.next
+        return newhead
+
+    
