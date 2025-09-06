@@ -1,20 +1,23 @@
-from heapq import *
-
+from sortedcontainers import SortedList
 
 class MedianFinder:
+
     def __init__(self):
-        self.small = [] 
-        self.large = []  
+        self.a = SortedList()
+        self.n=0
 
-    def addNum(self, num):
-        if len(self.small) == len(self.large):
-            heappush(self.large, -heappushpop(self.small, -num))
-        else:
-            heappush(self.small, -heappushpop(self.large, num))
+    def addNum(self, num: int) -> None:
+        self.a.add(num)
+        self.n+=1
 
-    def findMedian(self):
-        if len(self.small) == len(self.large):
-            return float(self.large[0] - self.small[0]) / 2.0
-        else:
-            return float(self.large[0])
+    def findMedian(self) -> float:
+        if self.n%2==0:
+            return (self.a[self.n//2 -1 ]+self.a[self.n//2])/2
+        else :
+            return (self.a[self.n//2])
 
+
+# Your MedianFinder object will be instantiated and called as such:
+# obj = MedianFinder()
+# obj.addNum(num)
+# param_2 = obj.findMedian()
