@@ -1,7 +1,6 @@
-from itertools import combinations
-import array as array
-class Solution(object):
-    def intersect(self, nums1, nums2):
+class Solution:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        
         nums1.sort()
         nums2.sort()
         
@@ -16,5 +15,4 @@ class Solution(object):
                 ans.append(nums1[i])
                 i += 1
                 j += 1
-        return ans
-            
+        return ans   
