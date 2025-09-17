@@ -1,23 +1,20 @@
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
-        n=len(matrix)
-        m=len(matrix[0])
-        memo=[[0]*m for i in range(n)]
-        def dfs(i,j):
-            if memo[i][j]!=0:
-                return memo[i][j]
-            best=1
-            for dx,dy in [(0,-1),(0,1),(1,0),(-1,0)]:
-                x=dx+i
-                y=dy+j
-                if 0<=x<n and 0<=y<m and matrix[x][y]>matrix[i][j]:
-                    best=max(best,dfs(x,y)+1)
-                    dfs(x,y)
-            memo[i][j]=best
-            return best
-        maxi=0
-        for i in range(n):
-            for j in range(m):
-                maxi=max(maxi,dfs(i,j))
-        return maxi
+        if not matrix or not matrix[0]:
+            return 0
+        rows, cols = len(matrix), len(matrix[0])
+        dp =[[0] * cols for i in range(rows)]
+        def dfs(i, j):
+            if not dp[i][j]:
+                val = matrix[i][j]
+                dp[i][j] = 1 + max(
+                    dfs(i - 1, j) if i and val > matrix[i - 1][j] else 0,
+                    dfs(i + 1, j) if i < rows - 1 and val > matrix[i + 1][j] else 0,
+                    dfs(i, j - 1) if j and val > matrix[i][j - 1] else 0,
+                    dfs(i, j + 1) if j < cols - 1 and val > matrix[i][j + 1] else 0)
+            return dp[i][j]
         
+        for r in range(rows):
+            for c in range(cols):
+                dfs(r,c)
+        return max(max(x) for x in dp)
