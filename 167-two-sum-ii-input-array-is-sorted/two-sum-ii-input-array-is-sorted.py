@@ -1,14 +1,20 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        left = 0
-        right = len(numbers) - 1
+        # left = 0
+        # right = len(numbers) - 1
 
-        while left < right:
-            total = numbers[left] + numbers[right]
+        # while left < right:
+        #     total = numbers[left] + numbers[right]
 
-            if total == target:
-                return [left + 1, right + 1]
-            elif total > target:
-                right -= 1
-            else:
-                left += 1
+        #     if total == target:
+        #         return [left + 1, right + 1]
+        #     elif total > target:
+        #         right -= 1
+        #     else:
+        #         left += 1
+        seen={}
+        for i ,v in enumerate(numbers):
+            res= seen.get(target-v)
+            if res is not None :
+                return res+1,i+1
+            seen[v]=i
